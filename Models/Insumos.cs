@@ -9,6 +9,6 @@
         public string UnidadMedida { get; set; }
         public int IVA { get; set; }
         public double Precio { get; set; }
-        public bool EstadoInsumo { get; set; }
+        public int EstadoInsumo { get; set; }
     }
 }

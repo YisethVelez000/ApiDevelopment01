@@ -12,7 +12,7 @@ namespace ApiDevelopment.Models
         
         public string Nombre { get; set; }
         [Required]
-        public bool estadoRol { get; set; }
+        public int estadoRol { get; set; }
 
     }
 }

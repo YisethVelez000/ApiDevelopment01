@@ -12,6 +12,6 @@ namespace ApiDevelopment.Models
         public string Correo { get; set; }
         public string Password { get; set; }
         public Rol idRol { get; set; }
-        public bool Estado { get; set; }
+        public int Estado { get; set; }
     }
 }

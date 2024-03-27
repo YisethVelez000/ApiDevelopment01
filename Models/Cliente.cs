@@ -8,7 +8,7 @@
         public string Correo { get; set; }
         public string Telefono { get; set; }
         public string Direccion { get; set; }
-        public bool Estado { get; set; }
+        public int Estado { get; set; }
 
         public Usuario IdUsuario { get; set; }
     }

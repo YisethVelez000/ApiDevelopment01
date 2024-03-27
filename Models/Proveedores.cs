@@ -8,6 +8,6 @@
         public string Direccion { get; set; }
         public string Telefono { get; set; }
         public string Correo { get; set; }
-        public bool EstadoProveedor { get; set; }
+        public int EstadoProveedor { get; set; }
     }
 }

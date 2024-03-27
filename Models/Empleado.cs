@@ -11,7 +11,7 @@ namespace ApiDevelopment.Models
         public string Correo { get; set; }
         public string Telefono { get; set; }
         public string Direccion { get; set; }
-        public bool EstadoEmpleado { get; set; }
+        public int EstadoEmpleado { get; set; }
         public DateOnly FechaNacimiento { get; set; }
         public DateOnly FechaIngreso { get; set; }
         public DateOnly FechaFinalizacion { get; set; }

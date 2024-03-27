@@ -12,7 +12,7 @@
         public string TipoCatalogo { get; set; }
         public string ImagenProducto { get; set; }
         public double Precio { get; set; }
-        public bool Estado { get; set; }
+        public int Estado { get; set; }
         public FichaTecnica IdFichaTecnica { get; set; }
     }
 }

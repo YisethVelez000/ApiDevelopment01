@@ -10,6 +10,6 @@
         public DateOnly FechaEntrega { get; set; }
         public string FormaPago { get; set; }
         public double Precio { get; set; }
-        public bool EstadoPedido { get; set; }
+        public int EstadoPedido { get; set; }
     }
 }

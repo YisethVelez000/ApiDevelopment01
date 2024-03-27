@@ -7,6 +7,6 @@
         public Pedido IdPedido { get; set; }
         public DateOnly FechaVenta { get; set; }
         public double TotalVenta { get; set; }
-        public bool EstadoVenta { get; set; }
+        public int EstadoVenta { get; set; }
     }
 }

@@ -7,6 +7,6 @@
         public string Talla { get; set; }
         public string Imagen { get; set; }
         public string Color { get; set; }
-        public bool EstadoFicha { get; set; }
+        public int EstadoFicha { get; set; }
     }
 }
