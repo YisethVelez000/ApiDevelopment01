@@ -1,4 +1,5 @@
 using ApiDevelopment.Context;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,7 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 //builder.Services.AddDbContext<DevelopmentContext>(p => p.UseInMemoryDatabase("DevelopmentApi")); //Nombre de la base de datos
-builder.Services.AddSqlServer<ApplicationDbContext>(builder.Configuration.GetConnectionString("cnTareas"));
+builder.Services.AddDbContext<ApplicationDbContext>(options=>options.UseSqlServer(builder.Configuration.GetConnectionString("cnTareas")));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
